@@ -1,0 +1,163 @@
+/* 🌟 TIPOGRAFÍA Y GENERAL 🌟 */
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente oficial de Mapfre */
+    background-color: #FAFAFA; /* Fondo gris claro */
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ✅ BARRA LATERAL */
+.chainlit-sidebar {
+    background-color: #FFFFFF;  /* Blanco puro */
+    color: #D32F2F; /* Rojo Mapfre */
+    border-right: 4px solid #D32F2F; /* Borde lateral en rojo corporativo */
+}
+
+.chainlit-sidebar .chainlit-sidebar-item {
+    color: #D32F2F; /* Texto de la barra lateral */
+}
+
+.chainlit-sidebar .chainlit-sidebar-item:hover {
+    background-color: #FCE4E4; /* Rojo pastel */
+    color: #B71C1C;
+}
+
+/* ✅ MENSAJES DEL CHAT */
+.chainlit-message.user {
+    background-color: #D32F2F; /* Rojo corporativo Mapfre */
+    color: white;
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.chainlit-message.assistant {
+    background-color: #FCE4E4; /* Rojo pastel */
+    color: #B71C1C;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+/* ✅ INPUT DEL USUARIO */
+.chainlit-input {
+    border: 2px solid #D32F2F;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    background-color: white;
+    color: #333333;
+}
+
+.chainlit-input:focus {
+    outline: none;
+    border-color: #B71C1C;
+    box-shadow: 0 0 10px rgba(211, 47, 47, 0.3);
+}
+
+/* ✅ BOTONES PRINCIPALES */
+.chainlit-button {
+    background-color: #D32F2F;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.chainlit-button:hover {
+    background-color: #B71C1C;
+    box-shadow: 0px 4px 8px rgba(211, 47, 47, 0.2);
+}
+
+/* ✅ BOTONES SECUNDARIOS */
+.chainlit-button-secondary {
+    background-color: #FCE4E4;
+    color: #D32F2F;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-weight: bold;
+}
+
+.chainlit-button-secondary:hover {
+    background-color: #F8BBD0;
+}
+
+/* ✅ SCROLL PERSONALIZADO */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D32F2F;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FAFAFA;
+}
+
+/* ✅ ELEMENTOS DE CARGA */
+.chainlit-loading {
+    color: #D32F2F;
+}
+
+/* ✅ NOTIFICACIONES Y ALERTAS */
+.chainlit-alert {
+    background-color: #D32F2F;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.chainlit-alert-success {
+    background-color: #4CAF50; /* Verde */
+}
+
+.chainlit-alert-error {
+    background-color: #B71C1C; /* Rojo oscuro */
+}
+
+/* ✅ ENLACES */
+a {
+    color: #D32F2F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ✅ TARJETAS Y CARDS */
+.chainlit-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ EFECTO HOVER PARA ELEMENTOS INTERACTIVOS */
+.chainlit-interactive:hover {
+    background-color: #FCE4E4;
+    transition: 0.3s;
+}
+
+/* ✅ IMÁGENES REDONDEADAS */
+.chainlit-avatar {
+    border-radius: 50%;
+}
+
+/* ✅ LOGOTIPO DE MAPFRE */
+.chainlit-logo {
+    background-image: url('/public/logo-mapfre.png'); /* Cambia la ruta según tu archivo */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 180px; /* Ajusta según necesidad */
+    height: 60px; /* Ajusta según necesidad */
+    display: block;
+    margin: 10px auto;
+}

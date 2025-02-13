@@ -1,0 +1,7 @@
+Model,Query,faithfulness,relevancy
+pro1_5,faithfulness,True,True
+pro1_5,relevancy,False,True
+flash1_5,faithfulness,True,True
+flash1_5,relevancy,True,False
+flash2,faithfulness,True,True
+flash2,relevancy,True,True
