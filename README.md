@@ -1,19 +1,19 @@
-🚀 # **Multimodal RAG Chatbot for MAPFRE | Master's Thesis Project**  
+# 🚀 **Multimodal RAG Chatbot for MAPFRE | Master's Thesis Project**  
 
-📌 ## **Project Overview**  
+## 📌 **Project Overview**  
 
 This project is a Master’s Thesis focused on developing a **Multimodal Chatbot** using **Retrieval-Augmented Generation (RAG)** for **MAPFRE**.  
 The chatbot runs on **Chainlit** and provides an enhanced user experience for both **new and existing clients** seeking information about car insurance.  
 
 Additionally, a **voice-enabled avatar** 🗣️ has been developed, allowing users to interact via **voice commands** 🎙️. However, this feature is separate from the RAG-based retrieval system.  
 
-🎯 ## **Objectives**  
+## 🎯 **Objectives**  
 
 The chatbot is designed to **improve the user experience** for both:  
 ✅ **New customers** looking to purchase car insurance.  
 ✅ **Existing customers** who have questions about their current policy or potential rate optimizations.  
 
-🔍 ## **Key Features**  
+## 🔍 **Key Features**  
 
 - 🗣️ **Voice Interaction** via an AI-driven avatar.  
 - 🤖 **RAG-based chatbot** that retrieves and generates **insurance-related responses**.  
@@ -25,10 +25,10 @@ The chatbot is designed to **improve the user experience** for both:
     - Color 🎨  
     - And more!  
 
-## **GIF Demo**
+### **GIF Demo**
 ![Chatbot Example](data/images/mappi1.gif)
 
-## **Agentic Avatar View**
+### **Agentic Avatar View**
 ![Chatbot Example_2](data/images/mappi-avatar.jpg)
 
 
