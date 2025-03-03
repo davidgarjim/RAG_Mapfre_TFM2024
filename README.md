@@ -25,8 +25,8 @@ The chatbot is designed to **improve the user experience** for both:
     - Color 🎨  
     - And more!  
 
-![Chatbot Example](data/images/mappi1.jpeg)
-![Chatbot Example_2](data/images/mappi2.jpeg)
+![Chatbot Example](data/images/mappi1.gif)
+![Chatbot Example_2](data/images/mappi-avatar.jpg)
 
 
 🔧 ## **Installation & Setup**  
