@@ -25,7 +25,10 @@ The chatbot is designed to **improve the user experience** for both:
     - Color 🎨  
     - And more!  
 
+## **GIF Demo**
 ![Chatbot Example](data/images/mappi1.gif)
+
+## **Agentic Avatar View**
 ![Chatbot Example_2](data/images/mappi-avatar.jpg)
 
 
@@ -39,18 +42,18 @@ Before you can start using the **RAG Bot**, make sure you have the following pre
 
 ### 📥 **Installation**  
 
-1️⃣ **Clone this repository** to your local machine.  
-```bash
-git clone https://github.com/ssillerom/tfm_valley_2025_g3.git
-cd RAG_CHATBOT
+1️⃣ Clone this repository to your local machine.  
+  ```bash
+  git clone https://github.com/ssillerom/tfm_valley_2025_g3.git
+  cd RAG_CHATBOT
 
 2️⃣ Install dependencies 📦
 
-poetry install
+  poetry install
 
 3️⃣ Access the environment 🔄
 
-poetry env activate
+  poetry env activate
 
 4️⃣ Configure the GOOGLE API KEY 🔑
 
@@ -59,8 +62,8 @@ poetry env activate
 
 5️⃣ Run the chatbot 🚀
 
-chainlit run app.py -w
+  chainlit run app.py -w
 
 6️⃣ (Optional) Run the voice-enabled avatar 🗣️🎙️
 
-python -m avatar
+  python -m avatar
